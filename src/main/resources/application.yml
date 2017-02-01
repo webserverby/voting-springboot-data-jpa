@@ -1,0 +1,12 @@
+
+datasource:
+  sampleapp:
+    url: jdbc:mysql://localhost:3306/webvoting
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    maxPoolSize: 10
+    hibernate:
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQL5Dialect
